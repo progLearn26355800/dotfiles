@@ -89,3 +89,8 @@ repo = 'tpope/vim-commentary'
 repo = 'majutsushi/tagbar'
 [[plugins]]
 repo = 'junegunn/vim-easy-align'
+
+[[plugins]]
+repo = 'skanehira/docker.vim'
+[[plugins]]
+repo = 'skanehira/docker-compose.vim'

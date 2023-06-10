@@ -15,3 +15,5 @@ on_ft = ['tex']
 [[plugins]]
 repo = 'plasticboy/vim-markdown'
 on_ft = ['md']
+
+

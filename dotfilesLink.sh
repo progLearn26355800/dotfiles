@@ -1,8 +1,8 @@
 #!/bin/sh
-ln -sf ~/dotfiles_mlplab/.vimrc ~/.vimrc
-ln -sf ~/dotfiles_mlplab/.emacs.d ~/.emacs.d
-ln -sf ~/dotfiles_mlplab/zshdot/.zshrc ~/.zshrc
-ln -sf ~/dotfiles_mlplab/ftplugin ~/.vim/
-ln -sf ~/dotfiles_mlplab/toml ~/.vim/
-ln -sf ~/dotfiles_mlplab/temp ~/.vim/
-ln -sf ~/dotfiles_mlplab/.latexmkrc ~/.latexmkrc
+ln -sf ~/dotfiles/.vimrc ~/.vimrc
+ln -sf ~/dotfiles/.emacs.d ~/.emacs.d
+ln -sf ~/dotfiles/zshdot/.zshrc ~/.zshrc
+ln -sf ~/dotfiles/ftplugin ~/.vim/
+ln -sf ~/dotfiles/toml ~/.vim/
+ln -sf ~/dotfiles/temp ~/.vim/
+ln -sf ~/dotfiles/.latexmkrc ~/.latexmkrc
