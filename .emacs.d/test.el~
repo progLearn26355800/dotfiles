@@ -1,0 +1,55 @@
+;; package
+(package-initialize)
+(setq package-archives
+      '(("gnu" . "http://elpa.gnu.org/packages/")
+        ("melpa" . "http://melpa.org/packages/")
+        ("org" . "http://orgmode.org/elpa/")))
+
+;; auto-complete
+;; (require 'auto-compelete-config)
+;; (global-auto-complete-mode 0.5)
+
+;; font
+;; (add-to-list 'default-frame-alist '(font . "ricty-12"))
+
+;; color theme
+(load-theme 'monokai t)
+
+;; alpha
+(if window-system
+    (progn
+      (set-frame-parameter nil 'alpha 95)))
+
+;; Background color's setting for not active window
+(require 'hiwin)
+(hiwin-activate)
+(set-face-backgrond 'hiwin-face "gray30")
+
+;; line number
+(require 'linum)
+(global-linum-mode 1)
+
+;; tab
+(setq default-tab-width 4)
+
+;; menu-ber
+(menu-bar-mode 0)
+
+;; tool-ber
+(tool-bar-mode 0)
+
+(which-function-mode 1)
+
+(show-paren-mode 1)
+
+(transient-mark-mode 1)
+
+(setq frame-title-format "%f")
+
+(let ((ls (member 'mode-line-buffer-identification
+		  mode-line-format)))
+  (setcdr ls
+	  (cons '(:eval (concat " ("
+				(abbreviate-file-name default-directory
+						      ")"))
+			(cdr ls))))

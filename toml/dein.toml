@@ -1,0 +1,91 @@
+[[plugins]]
+repo ='kana/vim-operator-user'
+
+[[plugins]]
+repo = 'ervandew/supertab'
+
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+
+
+[[plugins]]
+repo = 'nathanaelkane/vim-indent-guides'
+
+
+[[plugins]]
+repo = 'scrooloose/syntastic'
+
+
+[[plugins]]
+repo = 'tomasr/molokai'
+[[plugins]]
+repo = 'sjl/badwolf'
+[[plugins]]
+repo = 'nanotech/jellybeans.vim'
+[[plugins]]
+repo = 'W0ng/vim-hybrid'
+[[plugins]]
+repo = 'jpo/vim-railscasts-theme'
+[[plugins]]
+repo = 'altercation/vim-colors-solarized'
+[[plugins]]
+repo = 'vim-scripts/rdark'
+[[plugins]]
+repo = 'hachy/eva01.vim'
+[[plugins]]
+repo = 'vim-scripts/twilight'
+[[plugins]]
+repo = 'tyrannicaltoucan/vim-deep-space'
+
+
+[[plugins]]
+repo = 'Shougo/unite.vim'
+[[plugins]]
+repo = 'Shougo/unite-outline'
+[[plugins]]
+repo = 'ujihisa/unite-colorscheme'
+
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+[[plugins]]
+repo = 'ryanoasis/vim-devicons'
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+[[plugins]]
+repo = 'bronson/vim-trailing-whitespace'
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+[[plugins]]
+repo = 'kana/vim-submode'
+
+[[plugins]]
+repo = 'szw/vim-tags'
+
+[[plugins]]
+repo = 'tpope/vim-endwise'
+[[plugins]]
+repo = 'tpope/vim-surround'
+
+[[plugins]]
+repo = 'previm/previm'
+[[plugins]]
+repo = 'tyru/open-browser.vim'
+
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
+[[plugins]]
+repo = 'tpope/vim-fugitive'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+[[plugins]]
+repo = 'vim-airline/vim-airline-themes'
+
+[[plugins]]
+repo = 'tpope/vim-commentary'
+[[plugins]]
+repo = 'majutsushi/tagbar'
+[[plugins]]
+repo = 'junegunn/vim-easy-align'
