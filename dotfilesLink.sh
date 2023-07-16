@@ -6,3 +6,4 @@ ln -sf ~/dotfiles/ftplugin ~/.vim/
 ln -sf ~/dotfiles/toml ~/.vim/
 ln -sf ~/dotfiles/temp ~/.vim/
 ln -sf ~/dotfiles/.latexmkrc ~/.latexmkrc
+sh setup_font.sh

@@ -16,4 +16,6 @@ on_ft = ['tex']
 repo = 'plasticboy/vim-markdown'
 on_ft = ['md']
 
-
+[[plugins]]
+repo = 'hashivim/vim-terraform'
+on_ft = ['tf']
