@@ -19,13 +19,13 @@ import sys
 import os
 
 home = os.path.expanduser("~")
-path = home + '/anaconda3/lib/python3.6/site-package'
+path = home + '/miniconda3/lib/python*/site-package'
 if not path in sys.path:
     sys.path.insert(0, path)
 
-path = home + '/anaconda3/envs/'
+path = home + '/miniconda3/envs/'
 for i in os.listdir(path):
-    path2 = path + i + '/lib/python3.6/site-packages'
+    path2 = path + i + '/lib/python*/site-packages'
     print(path2)
     if not path2 in sys.path:
         sys.path.insert(0, path2)
