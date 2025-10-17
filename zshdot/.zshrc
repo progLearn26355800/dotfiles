@@ -71,8 +71,8 @@ setopt pushd_ignore_dups
 # completion
 autoload -U compinit
 compinit
-alias ls='ls -l --color=auto'
-alias la='ls -al --color=auto'
+alias ls='ls -lth --color=auto'
+alias la='ls -ltah --color=auto'
 setopt correct
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
@@ -121,3 +121,7 @@ unset __conda_setup
 
 # export git editor
 export GIT_EDITOR=vim
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

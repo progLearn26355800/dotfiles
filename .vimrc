@@ -1,4 +1,5 @@
-set encoding=utf-8
+set encoding=UTF-8
+set guifont=3270NerdFontMono-Regular:h12
 
 set wildmenu "コマンドモードの保管
 set history=5000 "保存するコマンドの数
@@ -310,6 +311,8 @@ imap <C-f> <C-x><C-o>
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 autocmd vimenter * if !argc() | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+let g:WebDevIconsUnicodeDecorateFolderNodes = 1
+let g:webdevicons_enable_nerdtree = 1
 
 " neocomplcache
 let g:acp_enableAtStartup = 0
