@@ -1,1 +1,1 @@
-/home/haruka/dotfiles_mlplab/.emacs.d
+/home/kou/dotfiles/.emacs.d
