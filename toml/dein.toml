@@ -106,3 +106,20 @@ repo = 'junegunn/vim-easy-align'
 repo = 'skanehira/docker.vim'
 [[plugins]]
 repo = 'skanehira/docker-compose.vim'
+
+[[plugins]]
+repo = 'sheerun/vim-polyglot'
+[[plugins]]
+repo = 'mattn/emmet-vim'
+# [plugins]
+# repo = 'othree/yajs.vim'
+[[plugins]]
+repo = 'maxmellon/vim-jsx-pretty'
+[[plugins]]
+repo = 'HerringtonDarkholme/yats.vim'
+[[plugins]]
+repo = 'w0rp/ale'
+[[plugins]]
+repo = 'pechorin/any-jump.vim'
+# # [[plugins]]
+# # repo =  'neoclide/coc.nvim'

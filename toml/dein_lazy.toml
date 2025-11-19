@@ -19,3 +19,10 @@ on_ft = ['md']
 [[plugins]]
 repo = 'hashivim/vim-terraform'
 on_ft = ['tf']
+
+[[plugins]]
+repo = 'dart-lang/dart-vim-plugin'
+onf_ft=['dart']
+[[plugins]]
+repo = 'thosakwe/vim-flutter'
+onf_ft=['dart']

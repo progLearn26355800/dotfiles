@@ -125,3 +125,12 @@ export GIT_EDITOR=vim
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# flutter
+export PATH="$PATH:/usr/local/flutter/bin"
+export ANDROID_HOME="/home/kou/SD/android-sdk"
+export PATH="$PATH:$ANDROID_HOME/cmdline-tools/latest/bin"
+export PATH="$PATH:$ANDROID_HOME/platform-tools/bin"
+JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:/bin/javac::")
+export PATH="$PATH:$JAVA_HOME/bin"
+export PATH="$PATH:/home/kou/SD/android-studio/bin"
