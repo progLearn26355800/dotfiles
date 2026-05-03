@@ -9,24 +9,41 @@ set autoindent
 nnoremap <C-p> :w<CR>:Q<CR>
 nnoremap <C-k> :w<CR>:!python setup.py build_ext --inplace<CR>
 
+" let g:jedi#completions_command = 0
 let g:jedi#popup_select_first = 0
 let g:jedi#popup_on_dot = 0
-let g:gedi#completions_command = 0
+let g:jedi#goto_assignments_command = "<leader>g" " 定義へ移動
+let g:jedi#goto_definitions_command = "<leader>d" " 定義へ移動
+let g:jedi#documentation_command = "<leader>k" " ドキュメント表示
 " Not show popup
+"
+let g:jedi#environment_path = ".venv"
 
-python3 << EOF
-import sys
-import os
+let g:ale_linters = {
+    \ 'python': ['ruff']
+\ }
+let g:ale_fixers = {
+  \ 'python': ['ruff_format']
+\ }
+let g:ale_fix_on_save = 1
+let g:ale_python_auto_poetry = 1
+let g:ale_python_auto_virtualenv = 1
+let g:ale_python_ruff_auto_poetry = 1
+let g:ale_python_ruff_change_directory = 1
 
-home = os.path.expanduser("~")
-path = home + '/miniconda3/lib/python*/site-package'
-if not path in sys.path:
-    sys.path.insert(0, path)
-
-path = home + '/miniconda3/envs/'
-for i in os.listdir(path):
-    path2 = path + i + '/lib/python*/site-packages'
-    print(path2)
-    if not path2 in sys.path:
-        sys.path.insert(0, path2)
-EOF
+" python3 << EOF
+" import sys
+" import os
+"
+" home = os.path.expanduser("~")
+" path = home + '/miniconda3/lib/python*/site-package'
+" if not path in sys.path:
+"     sys.path.insert(0, path)
+"
+" path = home + '/miniconda3/envs/'
+" for i in os.listdir(path):
+"     path2 = path + i + '/lib/python*/site-packages'
+"     print(path2)
+"     if not path2 in sys.path:
+"         sys.path.insert(0, path2)
+" EOF

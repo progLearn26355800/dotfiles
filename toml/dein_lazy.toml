@@ -1,12 +1,12 @@
 [[plugins]]
 repo = 'davidhalter/jedi-vim'
 on_ft = ['python']
-[[plugins]]
-repo = 'andviro/flake8-vim'
-on_ft = ['python']
-[[plugins]]
-repo = 'tell-k/vim-autopep8'
-on_ft = ['python']
+# [[plugins]]
+# repo = 'andviro/flake8-vim'
+# on_ft = ['python']
+# [[plugins]]
+# repo = 'tell-k/vim-autopep8'
+# on_ft = ['python']
 
 [[plugins]]
 repo = 'lervag/vimtex'
@@ -14,15 +14,19 @@ on_ft = ['tex']
 
 [[plugins]]
 repo = 'plasticboy/vim-markdown'
-on_ft = ['md']
+on_ft = ['markdown']
 
 [[plugins]]
 repo = 'hashivim/vim-terraform'
-on_ft = ['tf']
+on_ft = ['terraform']
 
 [[plugins]]
 repo = 'dart-lang/dart-vim-plugin'
-onf_ft=['dart']
+on_ft=['dart']
 [[plugins]]
 repo = 'thosakwe/vim-flutter'
-onf_ft=['dart']
+on_ft=['dart']
+
+[[plugins]]
+repo = 'fatih/vim-go'
+on_ft = ['go']

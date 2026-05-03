@@ -1,21 +1,13 @@
 [[plugins]]
 repo ='kana/vim-operator-user'
-
 [[plugins]]
 repo = 'ervandew/supertab'
-
 [[plugins]]
 repo = 'thinca/vim-quickrun'
-
-
 [[plugins]]
 repo = 'nathanaelkane/vim-indent-guides'
-
-
 [[plugins]]
 repo = 'scrooloose/syntastic'
-
-
 [[plugins]]
 repo = 'tomasr/molokai'
 [[plugins]]
@@ -36,31 +28,22 @@ repo = 'hachy/eva01.vim'
 repo = 'vim-scripts/twilight'
 [[plugins]]
 repo = 'tyrannicaltoucan/vim-deep-space'
-
-
 [[plugins]]
 repo = 'Shougo/unite.vim'
 [[plugins]]
 repo = 'Shougo/unite-outline'
 [[plugins]]
 repo = 'ujihisa/unite-colorscheme'
-
-
 [[plugins]]
 repo = 'scrooloose/nerdtree'
 [[plugins]]
 repo = 'ryanoasis/vim-devicons'
 
 
-# [[plugins]]
 # repo = 'Shougo/defx.nvim'
-# [[plugins]]
 # repo = 'roxma/nvim-yarp'
-# [[plugins]]
 # repo = 'roxma/vim-hug-neovim-rpc'
-# [[plugins]]
 # repo = 'kristijanhusak/defx-icons'
-# [[plugins]]
 # repo = 'kristijanhusak/defx-git'
 
 [[plugins]]
@@ -111,8 +94,6 @@ repo = 'skanehira/docker-compose.vim'
 repo = 'sheerun/vim-polyglot'
 [[plugins]]
 repo = 'mattn/emmet-vim'
-# [plugins]
-# repo = 'othree/yajs.vim'
 [[plugins]]
 repo = 'maxmellon/vim-jsx-pretty'
 [[plugins]]
@@ -121,5 +102,10 @@ repo = 'HerringtonDarkholme/yats.vim'
 repo = 'w0rp/ale'
 [[plugins]]
 repo = 'pechorin/any-jump.vim'
-# # [[plugins]]
-# # repo =  'neoclide/coc.nvim'
+[[plugins]]
+repo = 'elzr/vim-json'
+[[plugins]]
+repo = 'prabirshrestha/vim-lsp'
+[[plugins]]
+repo = 'mattn/vim-lsp-settings'
+

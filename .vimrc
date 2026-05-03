@@ -21,6 +21,9 @@ set shiftwidth=4
 set softtabstop=4
 set autoindent
 
+set clipboard&
+set clipboard^=unnamedplus
+
 nnoremap ; :
 nnoremap : ;
 nnoremap s <Nop>
@@ -82,6 +85,10 @@ autocmd BufNewFile *.tex 0r ~/.vim/temp/temp.tex
 " python用設定
 autocmd BufRead,BufNewFile *.py setfiletype python
 autocmd BufNewFile *.py 0r ~/.vim/temp/temp.py
+" go用設定
+autocmd BufRead,BufNewFile *.go setfiletype go
+autocmd BufNewFile *.go 0r ~/.vim/temp/temp.go
+
 "
 " java用設定
 autocmd BufNewFile *.java 0r ~/.vim/temp/temp.java
